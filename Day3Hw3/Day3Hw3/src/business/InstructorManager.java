@@ -16,9 +16,6 @@ public class InstructorManager {
 	public void add(Instructor instructor) throws Exception {
 		// business rules.
 
-//		if (instructor.getName().equals(instructor)) {
-//			throw new Exception("You've already have an instructor with this name.");
-//		}
 
 		instructorDao.add(instructor);
 
